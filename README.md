@@ -48,3 +48,7 @@ const delayQueue = new PromiseQueue(concurrentTasks, 2, true)
 delayQueue.execute()  
 
 ```
+
+![Alt Text](https://media.giphy.com/media/2UJrCzHO6boSHIBi7R/giphy.gif)
+
+
