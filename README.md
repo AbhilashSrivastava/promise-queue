@@ -5,8 +5,8 @@ Promise Queues for concurrently running tasks
 ## Usage
 
 DEFINITION: 
-```
-const t= new PromiseQueue(
+```javascript
+const t = new PromiseQueue(
               <List Of Promises(array)>,
               <Number of tasks to run concurrently(number)>,
               <Enable Logging(boolean)>
@@ -14,14 +14,14 @@ const t= new PromiseQueue(
 ```
 
 EXECUTION:
- ```
+ ```javascript
   t.execute()
 ```
 
 
 
 ### Example
-```
+```javascript
 const PromiseQueue = require('./index')
 
 const delay = (seconds) => new Promise((resolves) => {
